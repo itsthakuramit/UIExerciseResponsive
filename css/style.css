@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+}
+header {
+    display: flex;
+    background-color: beige;
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid coral;
+    justify-content: space-between;
+}
+
+.brand {
+    height: 60px;
+    width: 120px;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+.nav-bar ul li{
+    display: inline;
+    padding: 10px;
+
+}
+
+.nav-bar ul li a{
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    padding: 5px;
+    border-bottom: 2px solid red;
+}
+
+
+button{
+    margin-top: 5px;
+    margin-right: 20px;   
+    background-color: brown;
+    color: beige;
+    padding: 5px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100px;
+    border-color:  2px solid #ffffff;
+}
+
+button:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+.hero-unit-container{
+        background-image: url('./../images/bg.jpg');
+        height: 300px;
+        text-align: center;
+
+}
+
+.hero-unit-mask{
+    height: 300px;
+}
+
+.hero-unit-mask h1{
+    margin: 0%;
+    padding: 80px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.hero-unit-mask a{
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px auto;
+    display: block;
+    width: 120px;
+}
+
+.hero-unit-mask a:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+.paper{
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 400px grey;
+}
+
+.paper h1{
+    font-size: 16px;
+    color: blueviolet;
+}
+
+.paper img{
+    height: 180px;
+    width: 160px;
+}
+
+
+.paper p{
+    color: brown;
+    padding: 2px;
+    font-size: 14px;
+
+}
+
+.paper-flex-container{
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    
+}
+
+.paper-flex-container h1{
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.paper-flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer{
+    height: 50px;
+    background-color:beige;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .paper-flex-row{
+        flex-direction: row;
+    }  
+    .paper img{
+        height: 150px;
+        width: 150px;
+    }
+    .hero-unit-mask h1{
+        font-size: 30px;
+    }
+  }
+  
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .paper-flex-row{
+        flex-direction: column;
+    }
+    .paper img{
+        height: 150px;
+        width: 150px;
+    }
+    .hero-unit-mask h1{
+        font-size: 30px;
+    }
+    .nav-bar ul li a{
+        font-size: small;
+    }
+    .brand {
+        margin-top: 15px;
+        height: 50px;
+        width: 70px;       
+    }
+    button{
+        margin-top: 15px;
+    }
+    header{
+        height: 100px;
+    }
+  }

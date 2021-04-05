@@ -1,0 +1,142 @@
+
+body {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    background-color: beige;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid coral;
+}
+
+.brand {
+    height: 10vh;
+    width: 10vw;
+}
+
+.brand img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.nav-bar ul li a:hover {
+    color: blue;
+    padding: 1em;
+    border-bottom: 1px solid rgb(226, 11, 11);
+}
+
+button {
+    background-color: brown;
+    color: beige;
+    padding: 1em;
+    border-radius: 10px;
+    width: 10vw;
+    border-color: 2px solid #fff;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.hero-unit-container {
+    background-image: url("images/bg.jpg");
+    height: 80vh;
+    text-align: center;
+}
+
+.hero-unit-mask {
+    height: 80vh;
+    background-color: rgb(0, 0, 0, 0.5);
+
+}
+
+.hero-unit-mask h1 {
+    padding-top: 40vh;
+    margin: 0%;
+    font-size: 3em;
+}
+
+.hero-unit-mask a {
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    padding: 1em;
+    display: block;
+    width: 8vw;
+    margin: 1em auto;
+    border-radius: 5px;
+}
+
+.hero-unit-mask a:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.paper-flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.paper-flex-container h1{
+    font-size: 1em;
+    margin: 1em auto;
+}
+.paper-flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paper{
+    height: 370px;
+    width: 250px;
+    background-color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 40px grey;
+
+}
+.paper img{
+    height: 200px;
+    width: 130px;
+}
+.paper h1{
+    font-size: 1em;
+    color: blueviolet;
+}
+.paper p{
+    font-size: 0.8em;
+    color:brown;
+    padding: 1em;
+}
+footer {
+    height: 10vh;
+    background-color: azure;
+    border-top:2px solid brown;
+    text-align: center;
+    padding: 2em;
+    color: blue
+
+}
